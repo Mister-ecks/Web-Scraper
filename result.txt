@@ -1,0 +1,819 @@
+
+> web-scraper@1.0.0 start C:\Users\THINKPAD T540p\Desktop\Technical Articles\Web-Scraper
+> nodemon index.js
+
+[33m[nodemon] 2.0.16[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node index.js`[39m
+Server is currently running on port 8000
+[
+  {
+    headline: 'New ICAN president pledges collaboration with stakeholders',
+    url: 'https://punchng.com/new-ican-president-pledges-collaboration-with-stakeholders/'
+  },
+  {
+    headline: 'Energy firm gets grant to electrify 50 Oyo health facilities',
+    url: 'https://punchng.com/energy-firm-gets-grant-to-electrify-50-oyo-health-facilities/'
+  },
+  {
+    headline: 'FRC to ensure global sustainability reporting',
+    url: 'https://punchng.com/frc-to-ensure-global-sustainability-reporting/'
+  },
+  {
+    headline: 'Access Bank pledges funding for MSMEs',
+    url: 'https://punchng.com/access-bank-pledges-funding-for-msmes/'
+  },
+  {
+    headline: 'Bank customers to produce indemnity for online transfers above N1m – CBN',
+    url: 'https://punchng.com/bank-customers-to-produce-indemnity-for-online-transfers-above-n1m-cbn/'
+  },
+  {
+    headline: 'I brought Buhari out of political retirement, assisted him to emerge President – Tinubu',
+    url: 'https://punchng.com/i-brought-buhari-out-of-political-retirement-assisted-him-to-emerge-president-tinubu/'
+  },
+  {
+    headline: '  Okada ban: Lagos set to crush another 2,228 motorcycles  ',
+    url: 'https://punchng.com/okada-ban-lagos-set-to-crush-another-2228-motorcycles/'
+  },
+  {
+    headline: '  US-based Nigerian kills self after shooting wife, grandmother  ',
+    url: 'https://punchng.com/us-based-nigerian-kills-self-after-shooting-wife-grandmother/'
+  },
+  {
+    headline: 'Okada ban: Lagos set to crush another 2,228 motorcycles',
+    url: 'https://punchng.com/okada-ban-lagos-set-to-crush-another-2228-motorcycles/'
+  },
+  {
+    headline: 'US-based Nigerian kills self after shooting wife, grandmother',
+    url: 'https://punchng.com/us-based-nigerian-kills-self-after-shooting-wife-grandmother/'
+  },
+  {
+    headline: 'Five remarkable moments from BBNaija S6 reunion opening night',
+    url: 'https://punchng.com/five-remarkable-moments-from-bbnaija-s6-reunion-opening-night/'
+  },
+  {
+    headline: '2023 presidency: APC may lose if... -Akeredolu',
+    url: 'https://punchng.com/2023-presidency-apc-may-lose-if-akeredolu/'
+  },
+  {
+    headline: 'Nigerians demand justice for lady sexually assaulted, beaten at Eko Hotels',
+    url: 'https://punchng.com/nigerians-demand-justice-for-lady-sexually-assaulted-beaten-at-eko-hotels/'
+  },
+  {
+    headline: 'VIDEO: Dolphins Basketball team honours late PUNCH chairman, Wale Aboderin',
+    url: 'https://punchng.com/video-dolphins-basketball-team-honours-late-punch-chairman-wale-aboderin/'
+  },
+  {
+    headline: "VIDEO: Mother of one rendered homeless, depressed after late husband's imprisonment for stealing alcohol",
+    url: 'https://punchng.com/video-mother-of-one-rendered-homeless-depressed-after-late-husbands-imprisonment-for-stealing-alcohol/'
+  },
+  {
+    headline: 'VIDEO: Battered, traumatised, raped, greener pastures seeking returnees narrate ordeal – 3',
+    url: 'https://punchng.com/video-battered-traumatised-raped-greener-pastures-seeking-returnees-narrate-ordeal-3/'
+  },
+  {
+    headline: 'VIDEO: Battered, traumatised, raped, greener pastures seeking returnees narrate ordeal – 2',
+    url: 'https://punchng.com/video-battered-traumatised-raped-greener-pastures-seeking-returnees-narrate-ordeal-2/'
+  },
+  {
+    headline: 'VIDEO: Battered, traumatised, raped, greener pastures seeking returnees narrate ordeal (1)',
+    url: 'https://punchng.com/video-battered-traumatised-raped-greener-pastures-seeking-returnees-narrate-ordeal-1/'
+  },
+  {
+    headline: 'Lagos guard stabs carpenter to death for climbing estate fence',
+    url: 'https://punchng.com/lagos-guard-stabs-carpenter-to-death-for-climbing-estate-fence/'
+  },
+  {
+    headline: 'Outrage as lady dies after plastic surgery, police seek information',
+    url: 'https://punchng.com/outrage-as-lady-dies-after-plastic-surgery-police-seek-information/'
+  },
+  {
+    headline: 'Two die in Anambra crash, truck crushes Kogi student',
+    url: 'https://punchng.com/two-die-in-anambra-crash-truck-crushes-kogi-student/'
+  },
+  {
+    headline: 'Engineer stabs wife, son for refusing to return home after torture',
+    url: 'https://punchng.com/engineer-stabs-wife-son-for-refusing-to-return-home-after-torture/'
+  },
+  {
+    headline: 'Nigerians demand justice for lady sexually assaulted, beaten at Eko Hotels',
+    url: 'https://punchng.com/nigerians-demand-justice-for-lady-sexually-assaulted-beaten-at-eko-hotels/'
+  },
+  {
+    headline: 'Okada ban: Lagos police impound 140 motorcycles, arrest passengers',
+    url: 'https://punchng.com/okada-ban-lagos-police-impound-140-motorcycles-arrest-passengers/'
+  },
+  {
+    headline: 'Man rescued from committing suicide on Lekki-Ikoyi Bridge',
+    url: 'https://punchng.com/man-rescued-from-committing-suicide-on-lekki-ikoyi-bridge/'
+  },
+  {
+    headline: 'Divorce-seeking wife beats husband to pulp in Lagos',
+    url: 'https://punchng.com/divorce-seeking-wife-beats-husband-to-pulp-in-lagos/'
+  },
+  {
+    headline: 'New ICAN president pledges collaboration with stakeholders',
+    url: 'https://punchng.com/new-ican-president-pledges-collaboration-with-stakeholders/'
+  },
+  {
+    headline: 'Energy firm gets grant to electrify 50 Oyo health facilities',
+    url: 'https://punchng.com/energy-firm-gets-grant-to-electrify-50-oyo-health-facilities/'
+  },
+  {
+    headline: 'FRC to ensure global sustainability reporting',
+    url: 'https://punchng.com/frc-to-ensure-global-sustainability-reporting/'
+  },
+  {
+    headline: 'Access Bank pledges funding for MSMEs',
+    url: 'https://punchng.com/access-bank-pledges-funding-for-msmes/'
+  },
+  {
+    headline: 'Bank customers to produce indemnity for online transfers above N1m – CBN',
+    url: 'https://punchng.com/bank-customers-to-produce-indemnity-for-online-transfers-above-n1m-cbn/'
+  },
+  {
+    headline: 'Background screeners’ association appoints trustees',
+    url: 'https://punchng.com/background-screeners-association-appoints-trustees/'
+  },
+  {
+    headline: 'Food & Beverage West Africa to hold in Lagos',
+    url: 'https://punchng.com/food-beverage-west-africa-to-hold-in-lagos/'
+  },
+  {
+    headline: 'Dollar rain drowns PDP presidential primary, creates bonanza for delegates',
+    url: 'https://punchng.com/dollar-rain-drowns-pdp-presidential-primary-creates-bonanza-for-delegates/'
+  },
+  {
+    headline: 'How Saraki led campaign of calumny against me in 2015 - Tinubu',
+    url: 'https://punchng.com/how-saraki-led-campaign-of-calumny-against-me-in-2015-tinubu/'
+  },
+  {
+    headline: 'Buhari wanted me as his deputy in 2015 - Tinubu',
+    url: 'https://punchng.com/buhari-wanted-me-as-his-deputy-in-2015-tinubu/'
+  },
+  {
+    headline: "Presidency: It's Yoruba's turn, says Tinubu",
+    url: 'https://punchng.com/presidency-its-yorubas-turn-says-tinubu/'
+  },
+  {
+    headline: '2023 presidency: APC may lose if... -Akeredolu',
+    url: 'https://punchng.com/2023-presidency-apc-may-lose-if-akeredolu/'
+  },
+  {
+    headline: 'Ekweremadu drops gov ambition, declares support for PDP candidate, Mba',
+    url: 'https://punchng.com/ekweremadu-drops-gov-ambition-declares-support-for-pdp-candidate-mba/'
+  },
+  {
+    headline: "APC govs root for governor as Buhari's successor, disagree on zoning",
+    url: 'https://punchng.com/just-in-apc-govs-root-for-governor-as-buharis-successor-disagree-on-zoning/'
+  },
+  {
+    headline: 'Court affirms Sowore as AAC chairman',
+    url: 'https://punchng.com/court-affirms-sowore-as-aac-chairman/'
+  },
+  {
+    headline: 'AFCON qualifier: Tunisia thrash 10-man Equatorial Guinea 4-0',
+    url: 'https://punchng.com/afcon-qualifier-tunisia-thrash-10-man-equatorial-guinea-4-0/'
+  },
+  {
+    headline: "Nations League: Ronaldo's Portugal fight back to draw Spain",
+    url: 'https://punchng.com/nations-league-ronaldos-portugal-fight-back-to-draw-spain/'
+  },
+  {
+    headline: 'Coach Sarri extends Lazio contract until 2025',
+    url: 'https://punchng.com/coach-sarri-extends-lazio-contract-until-2025/'
+  },
+  {
+    headline: '3SC apologise to journalist over attack from fans',
+    url: 'https://punchng.com/3sc-apologise-to-journalist-over-attack-from-fans/'
+  },
+  {
+    headline: 'We need change, D’Tigers slam FG over FIBA ban',
+    url: 'https://punchng.com/we-need-change-dtigers-slam-fg-over-fiba-ban/'
+  },
+  {
+    headline: 'LMC condemns attack on Remo Stars, journalists by 3SC supporters',
+    url: 'https://punchng.com/lmc-condemns-attack-on-remo-stars-journalists-by-3sc-supporters/'
+  },
+  {
+    headline: 'Italy vs Argentina: Lionel Messi named Finalissima Player of the Match',
+    url: 'https://punchng.com/italy-vs-argentina-lionel-messi-named-finalissima-player-of-the-match/'
+  },
+  {
+    headline: "Dollarised primaries: Implications for Nigeria's democracy",
+    url: 'https://punchng.com/dollarised-primaries-implications-for-nigerias-democracy/'
+  },
+  {
+    headline: "PUNCH Podcast: EFCC, Nigeria's political elite and fight against corruption",
+    url: 'https://punchng.com/punch-podcast-efcc-nigerias-political-elite-and-fight-against-corruption/'
+  },
+  {
+    headline: 'PUNCH Podcast: Insecurity in Anambra',
+    url: 'https://punchng.com/punch-podcast-insecurity-in-anambra/'
+  },
+  {
+    headline: 'PUNCH Podcast: When should children be introduced to sex education?',
+    url: 'https://punchng.com/punch-podcast-when-should-children-be-introduced-to-sex-education/'
+  },
+  {
+    headline: 'PUNCH Podcast: Sanwo-Olu bans Okada in six LGAs, after motorcyclists kill sound engineer over N100',
+    url: 'https://punchng.com/punch-podcast-sanwo-olu-bans-okada-in-six-lgas-after-motorcyclists-kill-sound-engineer-over-n100/'
+  },
+  {
+    headline: 'Fighting the scourge of hypertension',
+    url: 'https://punchng.com/fighting-the-scourge-of-hypertension/ '
+  },
+  {
+    headline: 'Addressing root causes of banditry, terrorism in Nigeria',
+    url: 'https://punchng.com/addressing-root-causes-of-banditry-terrorism-in-nigeria/'
+  },
+  {
+    headline: 'Why Buhari won’t hand over Nigeria to a corrupt leader',
+    url: 'https://punchng.com/why-buhari-wont-hand-over-nigeria-to-a-corrupt-leader/'
+  },
+  {
+    headline: 'Ebenezer Onyeagwu: Sustaining superior performance at Zenith Bank three years on',
+    url: 'https://punchng.com/ebenezer-onyeagwu-sustaining-superior-performance-at-zenith-bank-three-years-on/'
+  },
+  {
+    headline: 'Election delegates’ delicate delicacies',
+    url: 'https://punchng.com/election-delegates-delicate-delicacies/'
+  },
+  {
+    headline: 'Buhari cannot choose his successor',
+    url: 'https://punchng.com/buhari-cannot-choose-his-successor/'
+  },
+  {
+    headline: 'Monkeypox and the looming mass hysteria',
+    url: 'https://punchng.com/monkeypox-and-the-looming-mass-hysteria/'
+  },
+  {
+    headline: 'Okorocha and EFCC’s iberiberism',
+    url: 'https://punchng.com/okorocha-and-efccs-iberiberism/'
+  },
+  {
+    headline: 'Appraisal of 23 years of Nigeria’s Fourth Republic',
+    url: 'https://punchng.com/appraisal-of-23-years-of-nigerias-fourth-republic/'
+  },
+  {
+    headline: 'Nigerians working at cross purposes',
+    url: 'https://punchng.com/nigerians-working-at-cross-purposes/'
+  },
+  {
+    headline: 'Self-interest may cost South 2023 presidency',
+    url: 'https://punchng.com/self-interest-may-cost-south-2023-presidency/'
+  },
+  {
+    headline: 'NATO’s Nordic expansion inevitable, logical',
+    url: 'https://punchng.com/natos-nordic-expansion-inevitable-logical/'
+  },
+  {
+    headline: 'Appraisal of 23 years of Nigeria’s Fourth Republic',
+    url: 'https://punchng.com/appraisal-of-23-years-of-nigerias-fourth-republic/'
+  },
+  {
+    headline: 'Nigerians working at cross purposes',
+    url: 'https://punchng.com/nigerians-working-at-cross-purposes/'
+  },
+  {
+    headline: 'Self-interest may cost South 2023 presidency',
+    url: 'https://punchng.com/self-interest-may-cost-south-2023-presidency/'
+  },
+  {
+    headline: 'NATO’s Nordic expansion inevitable, logical',
+    url: 'https://punchng.com/natos-nordic-expansion-inevitable-logical/'
+  },
+  {
+    headline: 'Nigerian man kills self after shooting wife, grandmother in US',
+    url: 'https://punchng.com/nigerian-man-kills-self-after-shooting-wife-grandmother-in-us/'
+  },
+  {
+    headline: 'FG to evacuate 166 Nigerians trafficked to Libya',
+    url: 'https://punchng.com/fg-to-evacuate-166-nigerians-trafficked-to-libya/'
+  },
+  {
+    headline: 'Car stolen from Canada tracked to Nigeria',
+    url: 'https://punchng.com/car-stolen-from-canada-tracked-to-nigeria/'
+  },
+  {
+    headline: 'Burna Boy visits UN building ahead of New York show',
+    url: 'https://punchng.com/burna-boy-visits-un-building-ahead-of-new-york-show/'
+  },
+  {
+    headline: 'It felt special walking my son down the aisle - Female Nigerian envoy',
+    url: 'https://punchng.com/it-felt-special-walking-my-son-down-the-aisle-female-nigerian-envoy/'
+  },
+  {
+    headline: '11 Nigerians arrested over Facebook scam in Bangladesh',
+    url: 'https://punchng.com/11-nigerians-arrested-over-facebook-scam-in-bangladesh/'
+  },
+  {
+    headline: 'I plan to be a better daughter, sister this year -DJ Cuppy',
+    url: 'https://punchng.com/i-plan-to-be-a-better-daughter-sister-this-year-dj-cuppy/'
+  },
+  {
+    headline: 'Five remarkable moments from BBNaija S6 reunion opening night',
+    url: 'https://punchng.com/five-remarkable-moments-from-bbnaija-s6-reunion-opening-night/'
+  },
+  {
+    headline: 'BBNaija reunion: Peace opens up on social media break',
+    url: 'https://punchng.com/bbnaija-reunion-peace-opens-up-on-social-media-break/'
+  },
+  {
+    headline: 'Rapper, Ikechukwu, demands justice over teenage in-law’s death',
+    url: 'https://punchng.com/rapper-ikechukwu-demands-justice-over-teenage-in-laws-death/'
+  },
+  {
+    headline: 'Defamation: Jury gave me my life back, Johnny Depp hails verdict',
+    url: 'https://punchng.com/defamation-jury-gave-me-my-life-back-johnny-depp-hails-verdict/'
+  },
+  {
+    headline: "Defamation: Amber Heard 'disappointed' over jury’s verdict",
+    url: 'https://punchng.com/defamation-amber-heard-disappointed-over-jurys-verdict/'
+  },
+  {
+    headline: "Actress Laide Bakare's 13-year-old daughter gifts brother Benz on ninth birthday",
+    url: 'https://punchng.com/actress-laide-bakares-13-year-old-daughter-gifts-brother-benz-on-ninth-birthday/'
+  },
+  {
+    headline: 'Background screeners’ association appoints trustees',
+    url: 'https://punchng.com/background-screeners-association-appoints-trustees/'
+  },
+  {
+    headline: 'Food & Beverage West Africa to hold in Lagos',
+    url: 'https://punchng.com/food-beverage-west-africa-to-hold-in-lagos/'
+  },
+  {
+    headline: 'Lagos guard stabs carpenter to death for climbing estate fence',
+    url: 'https://punchng.com/lagos-guard-stabs-carpenter-to-death-for-climbing-estate-fence/'
+  },
+  {
+    headline: 'Dollar rain drowns PDP presidential primary, creates bonanza for delegates',
+    url: 'https://punchng.com/dollar-rain-drowns-pdp-presidential-primary-creates-bonanza-for-delegates/'
+  },
+  {
+    headline: 'Electricity tariff surge by 58% after N500bn subsidy suspension –Report',
+    url: 'https://punchng.com/electricity-tariff-surge-by-58-after-n500bn-subsidy-suspension-report/'
+  },
+  {
+    headline: 'Monkeypox more deadly in patients with other ailments –Virologist',
+    url: 'https://punchng.com/monkeypox-more-deadly-in-patients-with-other-ailments-virologist/'
+  },
+  {
+    headline: 'Dance helps maintain mental wellness, says group',
+    url: 'https://punchng.com/dance-helps-maintain-mental-wellness-says-group/'
+  },
+  {
+    headline: 'NAFDAC lists two COVID-19 herbal drugs for clinical trial',
+    url: 'https://punchng.com/nafdac-lists-two-covid-19-herbal-drugs-for-clinical-trial/'
+  },
+  {
+    headline: 'I battled depression, suicidal thoughts for years, yet no one understood my struggle —Filmmaker',
+    url: 'https://punchng.com/i-battled-depression-suicidal-thoughts-for-years-yet-no-one-understood-my-struggle-filmmaker/'
+  },
+  {
+    headline: 'Daura: Buhari’s hometown with many dividends of democracy',
+    url: 'https://punchng.com/daura-buharis-hometown-with-many-dividends-of-democracy/'
+  },
+  {
+    headline: 'I bathed my four children, bade wife bye unaware it’s our last moment together –Husband of pregnant woman killed in Anambra by ‘unknown gunmen’',
+    url: 'https://punchng.com/i-bathed-my-four-children-bade-wife-bye-unaware-its-our-last-moment-together-husband-of-pregnant-woman-killed-in-anambra-by-unknown-gunmen/'
+  },
+  {
+    headline: 'Cybersecurity analysts warn motorists of car hacking, recommend trackers, others',
+    url: 'https://punchng.com/cybersecurity-analysts-warn-motorists-of-car-hacking-recommend-trackers-others/'
+  },
+  {
+    headline: 'Men sexually abused at childhood narrate ugly encounters, psychological trauma',
+    url: 'https://punchng.com/men-sexually-abused-at-childhood-narrate-ugly-encounters-psychological-trauma/'
+  },
+  {
+    headline: 'After 10-year relationship, Maria’s ex-boyfriend battered, killed her for seeking better life with new lover – Sister',
+    url: 'https://punchng.com/after-10-year-relationship-marias-ex-boyfriend-battered-killed-her-for-seeking-better-life-with-new-lover-sister/'
+  },
+  {
+    headline: 'We campaigned for Buhari but Nigerians weren’t forced to vote for him –APC chieftain, Adeyeye',
+    url: 'https://punchng.com/we-campaigned-for-buhari-but-nigerians-werent-forced-to-vote-for-him-apc-chieftain-adeyeye/'
+  },
+  {
+    headline: 'Sports betting criminal, FG should ban it –Oyo Sports Council chair, Adewusi',
+    url: 'https://punchng.com/sports-betting-criminal-fg-should-ban-it-oyo-sports-council-chair-adewusi/'
+  },
+  {
+    headline: 'It’s disgraceful delegates rate candidates by how much they’re willing to spend at primaries –Chidoka',
+    url: 'https://punchng.com/its-disgraceful-delegates-rate-candidates-by-how-much-theyre-willing-to-spend-at-primaries-chidoka/'
+  },
+  {
+    headline: 'Password-stealing malware attacks rise by 146.65% in Nigeria –Report',
+    url: 'https://punchng.com/password-stealing-malware-attacks-rise-by-146-65-in-nigeria-report/'
+  },
+  ... 27 more items
+]
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+Server is currently running on port 8000
+[
+  {
+    headline: "[JUST IN] Ecuador vs Nigeria: Super Eagles lose in Peseiro's second game",
+    url: 'https://punchng.com/just-in-ecuador-vs-nigeria-super-eagles-lose-in-peseiros-second-game/'
+  },
+  {
+    headline: 'New ICAN president pledges collaboration with stakeholders',
+    url: 'https://punchng.com/new-ican-president-pledges-collaboration-with-stakeholders/'
+  },
+  {
+    headline: 'Energy firm gets grant to electrify 50 Oyo health facilities',
+    url: 'https://punchng.com/energy-firm-gets-grant-to-electrify-50-oyo-health-facilities/'
+  },
+  {
+    headline: 'FRC to ensure global sustainability reporting',
+    url: 'https://punchng.com/frc-to-ensure-global-sustainability-reporting/'
+  },
+  {
+    headline: 'Access Bank pledges funding for MSMEs',
+    url: 'https://punchng.com/access-bank-pledges-funding-for-msmes/'
+  },
+  {
+    headline: 'I brought Buhari out of political retirement, assisted him to emerge President – Tinubu',
+    url: 'https://punchng.com/i-brought-buhari-out-of-political-retirement-assisted-him-to-emerge-president-tinubu/'
+  },
+  {
+    headline: '  Okada ban: Lagos set to crush another 2,228 motorcycles  ',
+    url: 'https://punchng.com/okada-ban-lagos-set-to-crush-another-2228-motorcycles/'
+  },
+  {
+    headline: '  US-based Nigerian kills self after shooting wife, grandmother  ',
+    url: 'https://punchng.com/us-based-nigerian-kills-self-after-shooting-wife-grandmother/'
+  },
+  {
+    headline: 'Okada ban: Lagos set to crush another 2,228 motorcycles',
+    url: 'https://punchng.com/okada-ban-lagos-set-to-crush-another-2228-motorcycles/'
+  },
+  {
+    headline: 'US-based Nigerian kills self after shooting wife, grandmother',
+    url: 'https://punchng.com/us-based-nigerian-kills-self-after-shooting-wife-grandmother/'
+  },
+  {
+    headline: 'Five remarkable moments from BBNaija S6 reunion opening night',
+    url: 'https://punchng.com/five-remarkable-moments-from-bbnaija-s6-reunion-opening-night/'
+  },
+  {
+    headline: '2023 presidency: APC may lose if... -Akeredolu',
+    url: 'https://punchng.com/2023-presidency-apc-may-lose-if-akeredolu/'
+  },
+  {
+    headline: 'Nigerians demand justice for lady sexually assaulted, beaten at Eko Hotels',
+    url: 'https://punchng.com/nigerians-demand-justice-for-lady-sexually-assaulted-beaten-at-eko-hotels/'
+  },
+  {
+    headline: 'VIDEO: Dolphins Basketball team honours late PUNCH chairman, Wale Aboderin',
+    url: 'https://punchng.com/video-dolphins-basketball-team-honours-late-punch-chairman-wale-aboderin/'
+  },
+  {
+    headline: "VIDEO: Mother of one rendered homeless, depressed after late husband's imprisonment for stealing alcohol",
+    url: 'https://punchng.com/video-mother-of-one-rendered-homeless-depressed-after-late-husbands-imprisonment-for-stealing-alcohol/'
+  },
+  {
+    headline: 'VIDEO: Battered, traumatised, raped, greener pastures seeking returnees narrate ordeal – 3',
+    url: 'https://punchng.com/video-battered-traumatised-raped-greener-pastures-seeking-returnees-narrate-ordeal-3/'
+  },
+  {
+    headline: 'VIDEO: Battered, traumatised, raped, greener pastures seeking returnees narrate ordeal – 2',
+    url: 'https://punchng.com/video-battered-traumatised-raped-greener-pastures-seeking-returnees-narrate-ordeal-2/'
+  },
+  {
+    headline: 'VIDEO: Battered, traumatised, raped, greener pastures seeking returnees narrate ordeal (1)',
+    url: 'https://punchng.com/video-battered-traumatised-raped-greener-pastures-seeking-returnees-narrate-ordeal-1/'
+  },
+  {
+    headline: 'Lagos guard stabs carpenter to death for climbing estate fence',
+    url: 'https://punchng.com/lagos-guard-stabs-carpenter-to-death-for-climbing-estate-fence/'
+  },
+  {
+    headline: 'Outrage as lady dies after plastic surgery, police seek information',
+    url: 'https://punchng.com/outrage-as-lady-dies-after-plastic-surgery-police-seek-information/'
+  },
+  {
+    headline: 'Two die in Anambra crash, truck crushes Kogi student',
+    url: 'https://punchng.com/two-die-in-anambra-crash-truck-crushes-kogi-student/'
+  },
+  {
+    headline: 'Engineer stabs wife, son for refusing to return home after torture',
+    url: 'https://punchng.com/engineer-stabs-wife-son-for-refusing-to-return-home-after-torture/'
+  },
+  {
+    headline: 'Nigerians demand justice for lady sexually assaulted, beaten at Eko Hotels',
+    url: 'https://punchng.com/nigerians-demand-justice-for-lady-sexually-assaulted-beaten-at-eko-hotels/'
+  },
+  {
+    headline: 'Okada ban: Lagos police impound 140 motorcycles, arrest passengers',
+    url: 'https://punchng.com/okada-ban-lagos-police-impound-140-motorcycles-arrest-passengers/'
+  },
+  {
+    headline: 'Man rescued from committing suicide on Lekki-Ikoyi Bridge',
+    url: 'https://punchng.com/man-rescued-from-committing-suicide-on-lekki-ikoyi-bridge/'
+  },
+  {
+    headline: 'Divorce-seeking wife beats husband to pulp in Lagos',
+    url: 'https://punchng.com/divorce-seeking-wife-beats-husband-to-pulp-in-lagos/'
+  },
+  {
+    headline: 'New ICAN president pledges collaboration with stakeholders',
+    url: 'https://punchng.com/new-ican-president-pledges-collaboration-with-stakeholders/'
+  },
+  {
+    headline: 'Energy firm gets grant to electrify 50 Oyo health facilities',
+    url: 'https://punchng.com/energy-firm-gets-grant-to-electrify-50-oyo-health-facilities/'
+  },
+  {
+    headline: 'FRC to ensure global sustainability reporting',
+    url: 'https://punchng.com/frc-to-ensure-global-sustainability-reporting/'
+  },
+  {
+    headline: 'Access Bank pledges funding for MSMEs',
+    url: 'https://punchng.com/access-bank-pledges-funding-for-msmes/'
+  },
+  {
+    headline: 'Bank customers to produce indemnity for online transfers above N1m – CBN',
+    url: 'https://punchng.com/bank-customers-to-produce-indemnity-for-online-transfers-above-n1m-cbn/'
+  },
+  {
+    headline: 'Background screeners’ association appoints trustees',
+    url: 'https://punchng.com/background-screeners-association-appoints-trustees/'
+  },
+  {
+    headline: 'Food & Beverage West Africa to hold in Lagos',
+    url: 'https://punchng.com/food-beverage-west-africa-to-hold-in-lagos/'
+  },
+  {
+    headline: 'Dollar rain drowns PDP presidential primary, creates bonanza for delegates',
+    url: 'https://punchng.com/dollar-rain-drowns-pdp-presidential-primary-creates-bonanza-for-delegates/'
+  },
+  {
+    headline: 'How Saraki led campaign of calumny against me in 2015 - Tinubu',
+    url: 'https://punchng.com/how-saraki-led-campaign-of-calumny-against-me-in-2015-tinubu/'
+  },
+  {
+    headline: 'Buhari wanted me as his deputy in 2015 - Tinubu',
+    url: 'https://punchng.com/buhari-wanted-me-as-his-deputy-in-2015-tinubu/'
+  },
+  {
+    headline: "Presidency: It's Yoruba's turn, says Tinubu",
+    url: 'https://punchng.com/presidency-its-yorubas-turn-says-tinubu/'
+  },
+  {
+    headline: '2023 presidency: APC may lose if... -Akeredolu',
+    url: 'https://punchng.com/2023-presidency-apc-may-lose-if-akeredolu/'
+  },
+  {
+    headline: 'Ekweremadu drops gov ambition, declares support for PDP candidate, Mba',
+    url: 'https://punchng.com/ekweremadu-drops-gov-ambition-declares-support-for-pdp-candidate-mba/'
+  },
+  {
+    headline: "APC govs root for governor as Buhari's successor, disagree on zoning",
+    url: 'https://punchng.com/just-in-apc-govs-root-for-governor-as-buharis-successor-disagree-on-zoning/'
+  },
+  {
+    headline: 'Court affirms Sowore as AAC chairman',
+    url: 'https://punchng.com/court-affirms-sowore-as-aac-chairman/'
+  },
+  {
+    headline: "[JUST IN] Ecuador vs Nigeria: Super Eagles lose in Peseiro's second game",
+    url: 'https://punchng.com/just-in-ecuador-vs-nigeria-super-eagles-lose-in-peseiros-second-game/'
+  },
+  {
+    headline: 'AFCON qualifier: Tunisia thrash 10-man Equatorial Guinea 4-0',
+    url: 'https://punchng.com/afcon-qualifier-tunisia-thrash-10-man-equatorial-guinea-4-0/'
+  },
+  {
+    headline: "Nations League: Ronaldo's Portugal fight back to draw Spain",
+    url: 'https://punchng.com/nations-league-ronaldos-portugal-fight-back-to-draw-spain/'
+  },
+  {
+    headline: 'Coach Sarri extends Lazio contract until 2025',
+    url: 'https://punchng.com/coach-sarri-extends-lazio-contract-until-2025/'
+  },
+  {
+    headline: '3SC apologise to journalist over attack from fans',
+    url: 'https://punchng.com/3sc-apologise-to-journalist-over-attack-from-fans/'
+  },
+  {
+    headline: 'We need change, D’Tigers slam FG over FIBA ban',
+    url: 'https://punchng.com/we-need-change-dtigers-slam-fg-over-fiba-ban/'
+  },
+  {
+    headline: 'LMC condemns attack on Remo Stars, journalists by 3SC supporters',
+    url: 'https://punchng.com/lmc-condemns-attack-on-remo-stars-journalists-by-3sc-supporters/'
+  },
+  {
+    headline: "Dollarised primaries: Implications for Nigeria's democracy",
+    url: 'https://punchng.com/dollarised-primaries-implications-for-nigerias-democracy/'
+  },
+  {
+    headline: "PUNCH Podcast: EFCC, Nigeria's political elite and fight against corruption",
+    url: 'https://punchng.com/punch-podcast-efcc-nigerias-political-elite-and-fight-against-corruption/'
+  },
+  {
+    headline: 'PUNCH Podcast: Insecurity in Anambra',
+    url: 'https://punchng.com/punch-podcast-insecurity-in-anambra/'
+  },
+  {
+    headline: 'PUNCH Podcast: When should children be introduced to sex education?',
+    url: 'https://punchng.com/punch-podcast-when-should-children-be-introduced-to-sex-education/'
+  },
+  {
+    headline: 'PUNCH Podcast: Sanwo-Olu bans Okada in six LGAs, after motorcyclists kill sound engineer over N100',
+    url: 'https://punchng.com/punch-podcast-sanwo-olu-bans-okada-in-six-lgas-after-motorcyclists-kill-sound-engineer-over-n100/'
+  },
+  {
+    headline: 'Fighting the scourge of hypertension',
+    url: 'https://punchng.com/fighting-the-scourge-of-hypertension/ '
+  },
+  {
+    headline: 'Addressing root causes of banditry, terrorism in Nigeria',
+    url: 'https://punchng.com/addressing-root-causes-of-banditry-terrorism-in-nigeria/'
+  },
+  {
+    headline: 'Why Buhari won’t hand over Nigeria to a corrupt leader',
+    url: 'https://punchng.com/why-buhari-wont-hand-over-nigeria-to-a-corrupt-leader/'
+  },
+  {
+    headline: 'Ebenezer Onyeagwu: Sustaining superior performance at Zenith Bank three years on',
+    url: 'https://punchng.com/ebenezer-onyeagwu-sustaining-superior-performance-at-zenith-bank-three-years-on/'
+  },
+  {
+    headline: 'Election delegates’ delicate delicacies',
+    url: 'https://punchng.com/election-delegates-delicate-delicacies/'
+  },
+  {
+    headline: 'Buhari cannot choose his successor',
+    url: 'https://punchng.com/buhari-cannot-choose-his-successor/'
+  },
+  {
+    headline: 'Monkeypox and the looming mass hysteria',
+    url: 'https://punchng.com/monkeypox-and-the-looming-mass-hysteria/'
+  },
+  {
+    headline: 'Okorocha and EFCC’s iberiberism',
+    url: 'https://punchng.com/okorocha-and-efccs-iberiberism/'
+  },
+  {
+    headline: 'Appraisal of 23 years of Nigeria’s Fourth Republic',
+    url: 'https://punchng.com/appraisal-of-23-years-of-nigerias-fourth-republic/'
+  },
+  {
+    headline: 'Nigerians working at cross purposes',
+    url: 'https://punchng.com/nigerians-working-at-cross-purposes/'
+  },
+  {
+    headline: 'Self-interest may cost South 2023 presidency',
+    url: 'https://punchng.com/self-interest-may-cost-south-2023-presidency/'
+  },
+  {
+    headline: 'NATO’s Nordic expansion inevitable, logical',
+    url: 'https://punchng.com/natos-nordic-expansion-inevitable-logical/'
+  },
+  {
+    headline: 'Appraisal of 23 years of Nigeria’s Fourth Republic',
+    url: 'https://punchng.com/appraisal-of-23-years-of-nigerias-fourth-republic/'
+  },
+  {
+    headline: 'Nigerians working at cross purposes',
+    url: 'https://punchng.com/nigerians-working-at-cross-purposes/'
+  },
+  {
+    headline: 'Self-interest may cost South 2023 presidency',
+    url: 'https://punchng.com/self-interest-may-cost-south-2023-presidency/'
+  },
+  {
+    headline: 'NATO’s Nordic expansion inevitable, logical',
+    url: 'https://punchng.com/natos-nordic-expansion-inevitable-logical/'
+  },
+  {
+    headline: 'Nigerian man kills self after shooting wife, grandmother in US',
+    url: 'https://punchng.com/nigerian-man-kills-self-after-shooting-wife-grandmother-in-us/'
+  },
+  {
+    headline: 'FG to evacuate 166 Nigerians trafficked to Libya',
+    url: 'https://punchng.com/fg-to-evacuate-166-nigerians-trafficked-to-libya/'
+  },
+  {
+    headline: 'Car stolen from Canada tracked to Nigeria',
+    url: 'https://punchng.com/car-stolen-from-canada-tracked-to-nigeria/'
+  },
+  {
+    headline: 'Burna Boy visits UN building ahead of New York show',
+    url: 'https://punchng.com/burna-boy-visits-un-building-ahead-of-new-york-show/'
+  },
+  {
+    headline: 'It felt special walking my son down the aisle - Female Nigerian envoy',
+    url: 'https://punchng.com/it-felt-special-walking-my-son-down-the-aisle-female-nigerian-envoy/'
+  },
+  {
+    headline: '11 Nigerians arrested over Facebook scam in Bangladesh',
+    url: 'https://punchng.com/11-nigerians-arrested-over-facebook-scam-in-bangladesh/'
+  },
+  {
+    headline: 'I plan to be a better daughter, sister this year -DJ Cuppy',
+    url: 'https://punchng.com/i-plan-to-be-a-better-daughter-sister-this-year-dj-cuppy/'
+  },
+  {
+    headline: 'Five remarkable moments from BBNaija S6 reunion opening night',
+    url: 'https://punchng.com/five-remarkable-moments-from-bbnaija-s6-reunion-opening-night/'
+  },
+  {
+    headline: 'BBNaija reunion: Peace opens up on social media break',
+    url: 'https://punchng.com/bbnaija-reunion-peace-opens-up-on-social-media-break/'
+  },
+  {
+    headline: 'Rapper, Ikechukwu, demands justice over teenage in-law’s death',
+    url: 'https://punchng.com/rapper-ikechukwu-demands-justice-over-teenage-in-laws-death/'
+  },
+  {
+    headline: 'Defamation: Jury gave me my life back, Johnny Depp hails verdict',
+    url: 'https://punchng.com/defamation-jury-gave-me-my-life-back-johnny-depp-hails-verdict/'
+  },
+  {
+    headline: "Defamation: Amber Heard 'disappointed' over jury’s verdict",
+    url: 'https://punchng.com/defamation-amber-heard-disappointed-over-jurys-verdict/'
+  },
+  {
+    headline: "Actress Laide Bakare's 13-year-old daughter gifts brother Benz on ninth birthday",
+    url: 'https://punchng.com/actress-laide-bakares-13-year-old-daughter-gifts-brother-benz-on-ninth-birthday/'
+  },
+  {
+    headline: 'I brought Buhari out of political retirement, assisted him to emerge President – Tinubu',
+    url: 'https://punchng.com/i-brought-buhari-out-of-political-retirement-assisted-him-to-emerge-president-tinubu/'
+  },
+  {
+    headline: 'Background screeners’ association appoints trustees',
+    url: 'https://punchng.com/background-screeners-association-appoints-trustees/'
+  },
+  {
+    headline: 'Food & Beverage West Africa to hold in Lagos',
+    url: 'https://punchng.com/food-beverage-west-africa-to-hold-in-lagos/'
+  },
+  {
+    headline: 'Lagos guard stabs carpenter to death for climbing estate fence',
+    url: 'https://punchng.com/lagos-guard-stabs-carpenter-to-death-for-climbing-estate-fence/'
+  },
+  {
+    headline: 'Dollar rain drowns PDP presidential primary, creates bonanza for delegates',
+    url: 'https://punchng.com/dollar-rain-drowns-pdp-presidential-primary-creates-bonanza-for-delegates/'
+  },
+  {
+    headline: 'Monkeypox more deadly in patients with other ailments –Virologist',
+    url: 'https://punchng.com/monkeypox-more-deadly-in-patients-with-other-ailments-virologist/'
+  },
+  {
+    headline: 'Dance helps maintain mental wellness, says group',
+    url: 'https://punchng.com/dance-helps-maintain-mental-wellness-says-group/'
+  },
+  {
+    headline: 'NAFDAC lists two COVID-19 herbal drugs for clinical trial',
+    url: 'https://punchng.com/nafdac-lists-two-covid-19-herbal-drugs-for-clinical-trial/'
+  },
+  {
+    headline: 'I battled depression, suicidal thoughts for years, yet no one understood my struggle —Filmmaker',
+    url: 'https://punchng.com/i-battled-depression-suicidal-thoughts-for-years-yet-no-one-understood-my-struggle-filmmaker/'
+  },
+  {
+    headline: 'Daura: Buhari’s hometown with many dividends of democracy',
+    url: 'https://punchng.com/daura-buharis-hometown-with-many-dividends-of-democracy/'
+  },
+  {
+    headline: 'I bathed my four children, bade wife bye unaware it’s our last moment together –Husband of pregnant woman killed in Anambra by ‘unknown gunmen’',
+    url: 'https://punchng.com/i-bathed-my-four-children-bade-wife-bye-unaware-its-our-last-moment-together-husband-of-pregnant-woman-killed-in-anambra-by-unknown-gunmen/'
+  },
+  {
+    headline: 'Cybersecurity analysts warn motorists of car hacking, recommend trackers, others',
+    url: 'https://punchng.com/cybersecurity-analysts-warn-motorists-of-car-hacking-recommend-trackers-others/'
+  },
+  {
+    headline: 'Men sexually abused at childhood narrate ugly encounters, psychological trauma',
+    url: 'https://punchng.com/men-sexually-abused-at-childhood-narrate-ugly-encounters-psychological-trauma/'
+  },
+  {
+    headline: 'After 10-year relationship, Maria’s ex-boyfriend battered, killed her for seeking better life with new lover – Sister',
+    url: 'https://punchng.com/after-10-year-relationship-marias-ex-boyfriend-battered-killed-her-for-seeking-better-life-with-new-lover-sister/'
+  },
+  {
+    headline: 'We campaigned for Buhari but Nigerians weren’t forced to vote for him –APC chieftain, Adeyeye',
+    url: 'https://punchng.com/we-campaigned-for-buhari-but-nigerians-werent-forced-to-vote-for-him-apc-chieftain-adeyeye/'
+  },
+  {
+    headline: 'Sports betting criminal, FG should ban it –Oyo Sports Council chair, Adewusi',
+    url: 'https://punchng.com/sports-betting-criminal-fg-should-ban-it-oyo-sports-council-chair-adewusi/'
+  },
+  {
+    headline: 'It’s disgraceful delegates rate candidates by how much they’re willing to spend at primaries –Chidoka',
+    url: 'https://punchng.com/its-disgraceful-delegates-rate-candidates-by-how-much-theyre-willing-to-spend-at-primaries-chidoka/'
+  },
+  {
+    headline: 'Password-stealing malware attacks rise by 146.65% in Nigeria –Report',
+    url: 'https://punchng.com/password-stealing-malware-attacks-rise-by-146-65-in-nigeria-report/'
+  },
+  ... 27 more items
+]
