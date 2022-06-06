@@ -2,7 +2,7 @@
 A web scraper for extracting information from web pages easily, the code contains the url to https://www.punchng.com
 
 ## Getting started
-To get started, simply run npm install in order to install the necessary packages to your local machine and generate a package.json file
+To get started, simply run `npm install` in order to install the necessary packages to your local machine and generate a `package.json` file
 
 ## How to use
 In order to use this web scraper, get the website url, and then target the information you are looking for in your developer tools, e.g the link, image or text you want.
